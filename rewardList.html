@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+                integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+                crossorigin="anonymous">
+
 <style>
 table, td, th {
   border: 1px solid black;
@@ -21,33 +25,38 @@ td {
 
 <h2>Reward List is</h2>
 
-<table>
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th>
-    <th>Savings</th>
-  </tr>
-  <tr>
-    <td>Peter</td>
-    <td>Griffin</td>
-    <td>Rs100</td>
-  </tr>
-  <tr>
-    <td>Lois</td>
-    <td>Griffin</td>
-    <td>Rs150</td>
-  </tr>
-  <tr>
-    <td>Joe</td>
-    <td>Swanson</td>
-    <td>Rs300</td>
-  </tr>
-  <tr>
-    <td>Cleveland</td>
-    <td>Brown</td>
-    <td>$250</td>
-  </tr>
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">S.No</th>
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">Reward Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>Rs 100</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>Rs 200</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>Rs 300</td>
+    </tr>
+  </tbody>
 </table>
+
+
 
 </body>
 </html>
